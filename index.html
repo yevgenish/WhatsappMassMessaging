@@ -1,0 +1,48 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta charset="utf-8">
+	<script src="script.js" defer>
+	</script>
+	<style>
+		.numbers{
+			height: 150px;
+			width: 300px;
+		}
+
+		.text{
+			height: 100px;
+			width: 400px;
+			direction: rtl;
+		}
+
+		.hidden{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<p>
+		Numbers (each number in a new line, no other characters):
+		<div>
+			<textarea id="numbers" class="numbers"></textarea>
+		</div>
+		<br />
+		Text (no ' or "):
+		<div>
+			<textarea id="text" class="text"></textarea>
+		</div>
+		<br />
+		<div>
+			<input type="button" id="loadNumbers" value="load data"/>
+		</div>
+	</p>
+	<p>
+		<div id="contentDescr" class="hidden">Click on each number to send message in Whatsapp Web (<a href="https://web.whatsapp.com/" target="_blank">https://web.whatsapp.com/</a>)</div>
+	</p>
+	<p>
+		<div id="content">
+		</div>
+	</p>
+
+</body>
+</html>
