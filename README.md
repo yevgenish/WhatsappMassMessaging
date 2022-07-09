@@ -1,4 +1,4 @@
-# WhatsappMassMessaging
+# Whatsapp Mass Messaging
 
 Manually send messages to multiple recipients in Whatsapp Web<br /><br />
 Open index.html<br />
