@@ -1,7 +1,7 @@
 # Whatsapp Mass Messaging
 
 Manually send messages to multiple recipients in Whatsapp Web<br /><br />
-Application simplifies sending messages to multiple devices by preparing each individual sending link in format.<br />
+Application simplifies sending messages to multiple devices by preparing each individual sending link in format<br />
 https://wa.me/international_number/?text=text_to_send<br />
 
 To use:<br />
